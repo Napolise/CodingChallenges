@@ -1,0 +1,41 @@
+# =========================================================================
+# Java Core Exclusions
+# =========================================================================
+*.class
+*.log
+hs_err_pid*
+
+# Package Archives (Uncomment if you do not want to track compiled JARs)
+# *.jar
+# *.war
+
+# =========================================================================
+# Eclipse Specific Exclusions
+# =========================================================================
+# The local build output folder where Eclipse puts compiled classes
+bin/
+
+# Eclipse workspace metadata containing local history and preferences
+.metadata/
+
+# Local temporary files
+tmp/
+*.tmp
+*.bak
+*.swp
+
+# Locally stored Eclipse launch configurations
+*.launch
+
+# Eclipse Java annotation processor paths
+.factorypath
+.apt_generated/
+
+# =========================================================================
+# OPTIONAL: Eclipse Project Structures
+# =========================================================================
+# UNCOMMENT the lines below ONLY if your team uses Maven/Gradle to manage 
+# dependencies, making these local Eclipse files unnecessary for others:
+.project
+.classpath
+.settings/
