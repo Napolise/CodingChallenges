@@ -21,3 +21,4 @@ Prompts from leetcode
 | FizzBuzz          | Simple              |
 | WhileAscIntPrint  | Simple              |
 | PrimmsAlgorithm   | Trees               |
+| Valid Parentheses | Stacks              |
