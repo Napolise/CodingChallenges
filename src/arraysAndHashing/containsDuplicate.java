@@ -47,9 +47,9 @@ public class containsDuplicate {
 		return false;
 	}
 	
-	/** This function sorts the array first (this does change the base data set, 
+	/** This function sorts the array first (this DOES change the base data set, 
 	which may not be acceptable in real world ENV)
-	however this improves space constraints but not creating a new data 
+	however this improves space constraints by not creating a new data 
 	structure via HashSet.
 	**/
 	public static boolean containsDupeSpace(int[] nums) {

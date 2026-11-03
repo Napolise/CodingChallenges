@@ -5,12 +5,12 @@ Written in java and organized by general challenge categories
 
 Prompts from leetcode
 
-##Structure 
+## Structure 
 - `src/` - solutions, one class per problem, grouped into packages by topic 
 (arrays, strings, trees, ...)
 
 ## Progress
-
+Challenge count == 9
 
 | Problem           | Topic               |
 |-------------------|---------------------|
@@ -21,4 +21,5 @@ Prompts from leetcode
 | FizzBuzz          | Simple              |
 | WhileAscIntPrint  | Simple              |
 | PrimmsAlgorithm   | Trees               |
-| Valid Parentheses | Stacks              |
+| ValidParentheses  | Stacks              |
+| validAnagram      | Arrays/Hash         |

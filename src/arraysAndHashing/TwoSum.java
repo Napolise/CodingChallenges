@@ -15,17 +15,22 @@ import java.util.*;
 public class TwoSum {
 	public List<Integer> twoSum(int arr[], int target) {
 		
+		//visited numbers | key = the number | value = key's index in array
         Map<Integer, Integer> arrayMap = new HashMap<>();
 
+        //loop through the array
 		for (int i = 0; i < arr.length; i++) {
+			//the num we need to sum up to the target
 			int complement = target - arr[i];
-
+			//does the map have our complement?
 			if (arrayMap.containsKey(complement)) {
+				//return array list with complement and found number
 				return new ArrayList<>(Arrays.asList(complement, arr[i]));
 			}
+			//complement not found, store the results in the arrayMap
 			arrayMap.put(arr[i], i);
 		}
-
+		//no match found in whole array, return an empty array
 		return new ArrayList<>();
 	}
 }
