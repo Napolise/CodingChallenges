@@ -23,3 +23,4 @@ Challenge count == 9
 | PrimmsAlgorithm   | Trees               |
 | ValidParentheses  | Stacks              |
 | validAnagram      | Arrays/Hash         |
+| groupAnagrams     | Arrays/Hash         |
