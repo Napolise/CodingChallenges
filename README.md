@@ -3,14 +3,14 @@ Blind 75 (and other challenges)
 
 Written in java and organized by general challenge categories
 
-Prompts from leetcode
+Prompts from leetcode/neetcode
 
 ## Structure 
 - `src/` - solutions, one class per problem, grouped into packages by topic 
 (arrays, strings, trees, ...)
 
 ## Progress
-Challenge count == 9
+Challenge count == 10
 
 | Problem           | Topic               |
 |-------------------|---------------------|
